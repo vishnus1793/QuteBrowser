@@ -6,6 +6,10 @@
 
 config_version: 2
 settings:
+  content.blocking.enabled:
+    global: true
   content.javascript.clipboard:
     https://chatgpt.com: access-paste
     https://github.com: none
+  content.register_protocol_handler:
+    https://mail.google.com?extsrc=mailto&url=%25s: true

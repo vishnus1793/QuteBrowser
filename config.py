@@ -67,3 +67,5 @@ c.colors.tabs.selected.even.fg = "#ffffff"
 
 # Set background color for webpages if no specific styling is set
 c.colors.webpage.bg = "#1e1e1e"
+config.bind('1', 'tab-prev')
+config.bind('2', 'tab-next')
