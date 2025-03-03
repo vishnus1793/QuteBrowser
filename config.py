@@ -8,7 +8,8 @@ c.url.searchengines = {
     "b": "https://www.bing.com/search?q={}",
     "yt": "https://www.youtube.com/results?search_query={}",
     "gh": "https://github.com/search?q={}",
-    "wp": "https://en.wikipedia.org/wiki/{}"
+    "wp": "https://en.wikipedia.org/wiki/{}",
+    "in": "https://www.instagram.com/"
 }
 
 # Set start page
