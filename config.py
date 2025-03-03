@@ -7,9 +7,10 @@ c.url.searchengines = {
     "ddg": "https://duckduckgo.com/?q={}",
     "b": "https://www.bing.com/search?q={}",
     "yt": "https://www.youtube.com/results?search_query={}",
-    "gh": "https://github.com/search?q={}",
+    "gh": "https://github.com/{}",
     "wp": "https://en.wikipedia.org/wiki/{}",
-    "in": "https://www.instagram.com/{}"
+    "in": "https://www.instagram.com/{}",
+    "li": "https://www.linkedin.com/search/results/all/?keywords={}"
 }
 
 # Set start page
