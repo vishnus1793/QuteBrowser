@@ -9,7 +9,7 @@ c.url.searchengines = {
     "yt": "https://www.youtube.com/results?search_query={}",
     "gh": "https://github.com/search?q={}",
     "wp": "https://en.wikipedia.org/wiki/{}",
-    "in": "https://www.instagram.com/"
+    "in": "https://www.instagram.com/{}"
 }
 
 # Set start page
