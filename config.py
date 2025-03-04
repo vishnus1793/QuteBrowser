@@ -71,3 +71,4 @@ c.colors.tabs.selected.even.fg = "#ffffff"
 c.colors.webpage.bg = "#1e1e1e"
 config.bind('1', 'tab-prev')
 config.bind('2', 'tab-next')
+config.bind('<Alt-Left>', 'back')
