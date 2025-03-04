@@ -10,7 +10,8 @@ c.url.searchengines = {
     "gh": "https://github.com/{}",
     "wp": "https://en.wikipedia.org/wiki/{}",
     "in": "https://www.instagram.com/{}",
-    "li": "https://www.linkedin.com/search/results/all/?keywords={}"
+    "li": "https://www.linkedin.com/search/results/all/?keywords={}",
+    "an": "https://hianime.sx/search?keyword={}"
 }
 
 # Set start page
