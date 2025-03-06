@@ -12,6 +12,7 @@ settings:
     https://chatgpt.com: access-paste
     https://github.com: none
   content.notifications.enabled:
+    https://www.chess.com: true
     https://www.instagram.com: true
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true

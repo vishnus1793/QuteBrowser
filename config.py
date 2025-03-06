@@ -73,3 +73,4 @@ c.colors.webpage.bg = "#1e1e1e"
 config.bind('1', 'tab-prev')
 config.bind('2', 'tab-next')
 config.bind('<Alt-Left>', 'back')
+#config.bind('<XF86Launch1>', 'fake-key <Escape>')
