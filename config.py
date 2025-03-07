@@ -74,3 +74,12 @@ config.bind('1', 'tab-prev')
 config.bind('2', 'tab-next')
 config.bind('<Alt-Left>', 'back')
 #config.bind('<XF86Launch1>', 'fake-key <Escape>')
+
+# Set tabs to always show on startup
+config.set("tabs.show", "always")
+
+# Bind Alt+F3 to show the tab bar
+config.bind("<Alt-F3>", "config-cycle tabs.show never always")
+
+# Bind Alt+F1 to hide the tab bar
+config.bind("<Alt-F1>", "config-cycle tabs.show always never")
