@@ -8,6 +8,7 @@ c.url.searchengines = {
     "b": "https://www.bing.com/search?q={}",
     "yt": "https://www.youtube.com/results?search_query={}",
     "gh": "https://github.com/{}",
+    "gs": "https://github.com/search?q={}",
     "wp": "https://en.wikipedia.org/wiki/{}",
     "in": "https://www.instagram.com/{}",
     "li": "https://www.linkedin.com/search/results/all/?keywords={}",
