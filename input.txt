@@ -1,0 +1,581 @@
+.
+├── autoconfig.yml
+├── bookmarks
+│   └── urls
+├── config.py
+├── greasemonkey
+├── input.txt
+├── qsettings
+│   └── QtProject.conf
+├── quickmarks
+├── README.md
+└── themes
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    ├── README.md
+    ├── screenshots
+    │   ├── gruvbox-dark-hard.png
+    │   ├── gruvbox-light-hard.png
+    │   ├── solarized-dark.png
+    │   └── solarized-light.png
+    ├── templates
+    │   ├── config.yaml
+    │   ├── default.mustache
+    │   └── minimal.mustache
+    └── themes
+        ├── default
+        │   ├── base16-3024.config.py
+        │   ├── base16-apathy.config.py
+        │   ├── base16-apprentice.config.py
+        │   ├── base16-ashes.config.py
+        │   ├── base16-atelier-cave.config.py
+        │   ├── base16-atelier-cave-light.config.py
+        │   ├── base16-atelier-dune.config.py
+        │   ├── base16-atelier-dune-light.config.py
+        │   ├── base16-atelier-estuary.config.py
+        │   ├── base16-atelier-estuary-light.config.py
+        │   ├── base16-atelier-forest.config.py
+        │   ├── base16-atelier-forest-light.config.py
+        │   ├── base16-atelier-heath.config.py
+        │   ├── base16-atelier-heath-light.config.py
+        │   ├── base16-atelier-lakeside.config.py
+        │   ├── base16-atelier-lakeside-light.config.py
+        │   ├── base16-atelier-plateau.config.py
+        │   ├── base16-atelier-plateau-light.config.py
+        │   ├── base16-atelier-savanna.config.py
+        │   ├── base16-atelier-savanna-light.config.py
+        │   ├── base16-atelier-seaside.config.py
+        │   ├── base16-atelier-seaside-light.config.py
+        │   ├── base16-atelier-sulphurpool.config.py
+        │   ├── base16-atelier-sulphurpool-light.config.py
+        │   ├── base16-atlas.config.py
+        │   ├── base16-ayu-dark.config.py
+        │   ├── base16-ayu-light.config.py
+        │   ├── base16-ayu-mirage.config.py
+        │   ├── base16-aztec.config.py
+        │   ├── base16-base16-gruber.config.py
+        │   ├── base16-bespin.config.py
+        │   ├── base16-black-metal-bathory.config.py
+        │   ├── base16-black-metal-burzum.config.py
+        │   ├── base16-black-metal.config.py
+        │   ├── base16-black-metal-dark-funeral.config.py
+        │   ├── base16-black-metal-gorgoroth.config.py
+        │   ├── base16-black-metal-immortal.config.py
+        │   ├── base16-black-metal-khold.config.py
+        │   ├── base16-black-metal-marduk.config.py
+        │   ├── base16-black-metal-mayhem.config.py
+        │   ├── base16-black-metal-nile.config.py
+        │   ├── base16-black-metal-venom.config.py
+        │   ├── base16-blueforest.config.py
+        │   ├── base16-blueish.config.py
+        │   ├── base16-brewer.config.py
+        │   ├── base16-bright.config.py
+        │   ├── base16-brogrammer.config.py
+        │   ├── base16-brushtrees.config.py
+        │   ├── base16-brushtrees-dark.config.py
+        │   ├── base16-caroline.config.py
+        │   ├── base16-catppuccin.config.py
+        │   ├── base16-catppuccin-frappe.config.py
+        │   ├── base16-catppuccin-latte.config.py
+        │   ├── base16-catppuccin-macchiato.config.py
+        │   ├── base16-catppuccin-mocha.config.py
+        │   ├── base16-chalk.config.py
+        │   ├── base16-circus.config.py
+        │   ├── base16-classic-dark.config.py
+        │   ├── base16-classic-light.config.py
+        │   ├── base16-codeschool.config.py
+        │   ├── base16-colors.config.py
+        │   ├── base16-cupcake.config.py
+        │   ├── base16-cupertino.config.py
+        │   ├── base16-danqing.config.py
+        │   ├── base16-danqing-light.config.py
+        │   ├── base16-da-one-black.config.py
+        │   ├── base16-da-one-gray.config.py
+        │   ├── base16-da-one-ocean.config.py
+        │   ├── base16-da-one-paper.config.py
+        │   ├── base16-da-one-sea.config.py
+        │   ├── base16-da-one-white.config.py
+        │   ├── base16-darcula.config.py
+        │   ├── base16-darkmoss.config.py
+        │   ├── base16-darktooth.config.py
+        │   ├── base16-darkviolet.config.py
+        │   ├── base16-decaf.config.py
+        │   ├── base16-deep-oceanic-next.config.py
+        │   ├── base16-default-dark.config.py
+        │   ├── base16-default-light.config.py
+        │   ├── base16-dirtysea.config.py
+        │   ├── base16-dracula.config.py
+        │   ├── base16-edge-dark.config.py
+        │   ├── base16-edge-light.config.py
+        │   ├── base16-eighties.config.py
+        │   ├── base16-embers.config.py
+        │   ├── base16-embers-light.config.py
+        │   ├── base16-emil.config.py
+        │   ├── base16-equilibrium-dark.config.py
+        │   ├── base16-equilibrium-gray-dark.config.py
+        │   ├── base16-equilibrium-gray-light.config.py
+        │   ├── base16-equilibrium-light.config.py
+        │   ├── base16-eris.config.py
+        │   ├── base16-espresso.config.py
+        │   ├── base16-eva.config.py
+        │   ├── base16-eva-dim.config.py
+        │   ├── base16-evenok-dark.config.py
+        │   ├── base16-everforest.config.py
+        │   ├── base16-everforest-dark-hard.config.py
+        │   ├── base16-flat.config.py
+        │   ├── base16-framer.config.py
+        │   ├── base16-fruit-soda.config.py
+        │   ├── base16-gigavolt.config.py
+        │   ├── base16-github.config.py
+        │   ├── base16-google-dark.config.py
+        │   ├── base16-google-light.config.py
+        │   ├── base16-gotham.config.py
+        │   ├── base16-grayscale-dark.config.py
+        │   ├── base16-grayscale-light.config.py
+        │   ├── base16-greenscreen.config.py
+        │   ├── base16-gruber.config.py
+        │   ├── base16-gruvbox-dark-hard.config.py
+        │   ├── base16-gruvbox-dark-medium.config.py
+        │   ├── base16-gruvbox-dark-pale.config.py
+        │   ├── base16-gruvbox-dark-soft.config.py
+        │   ├── base16-gruvbox-light-hard.config.py
+        │   ├── base16-gruvbox-light-medium.config.py
+        │   ├── base16-gruvbox-light-soft.config.py
+        │   ├── base16-gruvbox-material-dark-hard.config.py
+        │   ├── base16-gruvbox-material-dark-medium.config.py
+        │   ├── base16-gruvbox-material-dark-soft.config.py
+        │   ├── base16-gruvbox-material-light-hard.config.py
+        │   ├── base16-gruvbox-material-light-medium.config.py
+        │   ├── base16-gruvbox-material-light-soft.config.py
+        │   ├── base16-hardcore.config.py
+        │   ├── base16-harmonic16-dark.config.py
+        │   ├── base16-harmonic16-light.config.py
+        │   ├── base16-harmonic-dark.config.py
+        │   ├── base16-harmonic-light.config.py
+        │   ├── base16-heetch.config.py
+        │   ├── base16-heetch-light.config.py
+        │   ├── base16-helios.config.py
+        │   ├── base16-hopscotch.config.py
+        │   ├── base16-horizon-dark.config.py
+        │   ├── base16-horizon-light.config.py
+        │   ├── base16-horizon-terminal-dark.config.py
+        │   ├── base16-horizon-terminal-light.config.py
+        │   ├── base16-humanoid-dark.config.py
+        │   ├── base16-humanoid-light.config.py
+        │   ├── base16-ia-dark.config.py
+        │   ├── base16-ia-light.config.py
+        │   ├── base16-icy.config.py
+        │   ├── base16-irblack.config.py
+        │   ├── base16-isotope.config.py
+        │   ├── base16-jabuti.config.py
+        │   ├── base16-kanagawa.config.py
+        │   ├── base16-katy.config.py
+        │   ├── base16-kimber.config.py
+        │   ├── base16-lime.config.py
+        │   ├── base16-macintosh.config.py
+        │   ├── base16-marrakesh.config.py
+        │   ├── base16-materia.config.py
+        │   ├── base16-material.config.py
+        │   ├── base16-material-darker.config.py
+        │   ├── base16-material-lighter.config.py
+        │   ├── base16-material-palenight.config.py
+        │   ├── base16-material-vivid.config.py
+        │   ├── base16-measured-dark.config.py
+        │   ├── base16-measured-light.config.py
+        │   ├── base16-mellow-purple.config.py
+        │   ├── base16-mexico-light.config.py
+        │   ├── base16-mocha.config.py
+        │   ├── base16-monokai.config.py
+        │   ├── base16-moonlight.config.py
+        │   ├── base16-mountain.config.py
+        │   ├── base16-nebula.config.py
+        │   ├── base16-nord.config.py
+        │   ├── base16-nord-light.config.py
+        │   ├── base16-nova.config.py
+        │   ├── base16-ocean.config.py
+        │   ├── base16-oceanicnext.config.py
+        │   ├── base16-onedark.config.py
+        │   ├── base16-onedark-dark.config.py
+        │   ├── base16-one-light.config.py
+        │   ├── base16-outrun-dark.config.py
+        │   ├── base16-oxocarbon-dark.config.py
+        │   ├── base16-oxocarbon-light.config.py
+        │   ├── base16-pandora.config.py
+        │   ├── base16-papercolor-dark.config.py
+        │   ├── base16-papercolor-light.config.py
+        │   ├── base16-paraiso.config.py
+        │   ├── base16-pasque.config.py
+        │   ├── base16-phd.config.py
+        │   ├── base16-pico.config.py
+        │   ├── base16-pinky.config.py
+        │   ├── base16-pop.config.py
+        │   ├── base16-porple.config.py
+        │   ├── base16-precious-dark-eleven.config.py
+        │   ├── base16-precious-dark-fifteen.config.py
+        │   ├── base16-precious-light-warm.config.py
+        │   ├── base16-precious-light-white.config.py
+        │   ├── base16-primer-dark.config.py
+        │   ├── base16-primer-dark-dimmed.config.py
+        │   ├── base16-primer-light.config.py
+        │   ├── base16-purpledream.config.py
+        │   ├── base16-qualia.config.py
+        │   ├── base16-railscasts.config.py
+        │   ├── base16-rebecca.config.py
+        │   ├── base16-rose-pine.config.py
+        │   ├── base16-rose-pine-dawn.config.py
+        │   ├── base16-rose-pine-moon.config.py
+        │   ├── base16-saga.config.py
+        │   ├── base16-sagelight.config.py
+        │   ├── base16-sakura.config.py
+        │   ├── base16-sandcastle.config.py
+        │   ├── base16-selenized-black.config.py
+        │   ├── base16-selenized-dark.config.py
+        │   ├── base16-selenized-light.config.py
+        │   ├── base16-selenized-white.config.py
+        │   ├── base16-seti.config.py
+        │   ├── base16-shadesmear-dark.config.py
+        │   ├── base16-shadesmear-light.config.py
+        │   ├── base16-shades-of-purple.config.py
+        │   ├── base16-shapeshifter.config.py
+        │   ├── base16-silk-dark.config.py
+        │   ├── base16-silk-light.config.py
+        │   ├── base16-snazzy.config.py
+        │   ├── base16-solarflare.config.py
+        │   ├── base16-solarflare-light.config.py
+        │   ├── base16-solarized-dark.config.py
+        │   ├── base16-solarized-light.config.py
+        │   ├── base16-spaceduck.config.py
+        │   ├── base16-spacemacs.config.py
+        │   ├── base16-sparky.config.py
+        │   ├── base16-standardized-dark.config.py
+        │   ├── base16-standardized-light.config.py
+        │   ├── base16-stella.config.py
+        │   ├── base16-still-alive.config.py
+        │   ├── base16-summercamp.config.py
+        │   ├── base16-summerfruit-dark.config.py
+        │   ├── base16-summerfruit-light.config.py
+        │   ├── base16-synth-midnight-dark.config.py
+        │   ├── base16-synth-midnight-light.config.py
+        │   ├── base16-tango.config.py
+        │   ├── base16-tarot.config.py
+        │   ├── base16-tender.config.py
+        │   ├── base16-terracotta.config.py
+        │   ├── base16-terracotta-dark.config.py
+        │   ├── base16-tokyo-city-dark.config.py
+        │   ├── base16-tokyo-city-light.config.py
+        │   ├── base16-tokyo-city-terminal-dark.config.py
+        │   ├── base16-tokyo-city-terminal-light.config.py
+        │   ├── base16-tokyodark.config.py
+        │   ├── base16-tokyodark-terminal.config.py
+        │   ├── base16-tokyo-night-dark.config.py
+        │   ├── base16-tokyo-night-light.config.py
+        │   ├── base16-tokyo-night-moon.config.py
+        │   ├── base16-tokyo-night-storm.config.py
+        │   ├── base16-tokyo-night-terminal-dark.config.py
+        │   ├── base16-tokyo-night-terminal-light.config.py
+        │   ├── base16-tokyo-night-terminal-storm.config.py
+        │   ├── base16-tomorrow.config.py
+        │   ├── base16-tomorrow-night.config.py
+        │   ├── base16-tomorrow-night-eighties.config.py
+        │   ├── base16-tube.config.py
+        │   ├── base16-twilight.config.py
+        │   ├── base16-unikitty-dark.config.py
+        │   ├── base16-unikitty-light.config.py
+        │   ├── base16-unikitty-reversible.config.py
+        │   ├── base16-uwunicorn.config.py
+        │   ├── base16-valua.config.py
+        │   ├── base16-vesper.config.py
+        │   ├── base16-vice-alt.config.py
+        │   ├── base16-vice.config.py
+        │   ├── base16-vulcan.config.py
+        │   ├── base16-windows-10.config.py
+        │   ├── base16-windows-10-light.config.py
+        │   ├── base16-windows-95.config.py
+        │   ├── base16-windows-95-light.config.py
+        │   ├── base16-windows-highcontrast.config.py
+        │   ├── base16-windows-highcontrast-light.config.py
+        │   ├── base16-windows-nt.config.py
+        │   ├── base16-windows-nt-light.config.py
+        │   ├── base16-woodland.config.py
+        │   ├── base16-xcode-dusk.config.py
+        │   ├── base16-zenbones.config.py
+        │   └── base16-zenburn.config.py
+        └── minimal
+            ├── base16-3024.config.py
+            ├── base16-apathy.config.py
+            ├── base16-apprentice.config.py
+            ├── base16-ashes.config.py
+            ├── base16-atelier-cave.config.py
+            ├── base16-atelier-cave-light.config.py
+            ├── base16-atelier-dune.config.py
+            ├── base16-atelier-dune-light.config.py
+            ├── base16-atelier-estuary.config.py
+            ├── base16-atelier-estuary-light.config.py
+            ├── base16-atelier-forest.config.py
+            ├── base16-atelier-forest-light.config.py
+            ├── base16-atelier-heath.config.py
+            ├── base16-atelier-heath-light.config.py
+            ├── base16-atelier-lakeside.config.py
+            ├── base16-atelier-lakeside-light.config.py
+            ├── base16-atelier-plateau.config.py
+            ├── base16-atelier-plateau-light.config.py
+            ├── base16-atelier-savanna.config.py
+            ├── base16-atelier-savanna-light.config.py
+            ├── base16-atelier-seaside.config.py
+            ├── base16-atelier-seaside-light.config.py
+            ├── base16-atelier-sulphurpool.config.py
+            ├── base16-atelier-sulphurpool-light.config.py
+            ├── base16-atlas.config.py
+            ├── base16-ayu-dark.config.py
+            ├── base16-ayu-light.config.py
+            ├── base16-ayu-mirage.config.py
+            ├── base16-aztec.config.py
+            ├── base16-base16-gruber.config.py
+            ├── base16-bespin.config.py
+            ├── base16-black-metal-bathory.config.py
+            ├── base16-black-metal-burzum.config.py
+            ├── base16-black-metal.config.py
+            ├── base16-black-metal-dark-funeral.config.py
+            ├── base16-black-metal-gorgoroth.config.py
+            ├── base16-black-metal-immortal.config.py
+            ├── base16-black-metal-khold.config.py
+            ├── base16-black-metal-marduk.config.py
+            ├── base16-black-metal-mayhem.config.py
+            ├── base16-black-metal-nile.config.py
+            ├── base16-black-metal-venom.config.py
+            ├── base16-blueforest.config.py
+            ├── base16-blueish.config.py
+            ├── base16-brewer.config.py
+            ├── base16-bright.config.py
+            ├── base16-brogrammer.config.py
+            ├── base16-brushtrees.config.py
+            ├── base16-brushtrees-dark.config.py
+            ├── base16-caroline.config.py
+            ├── base16-catppuccin.config.py
+            ├── base16-catppuccin-frappe.config.py
+            ├── base16-catppuccin-latte.config.py
+            ├── base16-catppuccin-macchiato.config.py
+            ├── base16-catppuccin-mocha.config.py
+            ├── base16-chalk.config.py
+            ├── base16-circus.config.py
+            ├── base16-classic-dark.config.py
+            ├── base16-classic-light.config.py
+            ├── base16-codeschool.config.py
+            ├── base16-colors.config.py
+            ├── base16-cupcake.config.py
+            ├── base16-cupertino.config.py
+            ├── base16-danqing.config.py
+            ├── base16-danqing-light.config.py
+            ├── base16-da-one-black.config.py
+            ├── base16-da-one-gray.config.py
+            ├── base16-da-one-ocean.config.py
+            ├── base16-da-one-paper.config.py
+            ├── base16-da-one-sea.config.py
+            ├── base16-da-one-white.config.py
+            ├── base16-darcula.config.py
+            ├── base16-darkmoss.config.py
+            ├── base16-darktooth.config.py
+            ├── base16-darkviolet.config.py
+            ├── base16-decaf.config.py
+            ├── base16-deep-oceanic-next.config.py
+            ├── base16-default-dark.config.py
+            ├── base16-default-light.config.py
+            ├── base16-dirtysea.config.py
+            ├── base16-dracula.config.py
+            ├── base16-edge-dark.config.py
+            ├── base16-edge-light.config.py
+            ├── base16-eighties.config.py
+            ├── base16-embers.config.py
+            ├── base16-embers-light.config.py
+            ├── base16-emil.config.py
+            ├── base16-equilibrium-dark.config.py
+            ├── base16-equilibrium-gray-dark.config.py
+            ├── base16-equilibrium-gray-light.config.py
+            ├── base16-equilibrium-light.config.py
+            ├── base16-eris.config.py
+            ├── base16-espresso.config.py
+            ├── base16-eva.config.py
+            ├── base16-eva-dim.config.py
+            ├── base16-evenok-dark.config.py
+            ├── base16-everforest.config.py
+            ├── base16-everforest-dark-hard.config.py
+            ├── base16-flat.config.py
+            ├── base16-framer.config.py
+            ├── base16-fruit-soda.config.py
+            ├── base16-gigavolt.config.py
+            ├── base16-github.config.py
+            ├── base16-google-dark.config.py
+            ├── base16-google-light.config.py
+            ├── base16-gotham.config.py
+            ├── base16-grayscale-dark.config.py
+            ├── base16-grayscale-light.config.py
+            ├── base16-greenscreen.config.py
+            ├── base16-gruber.config.py
+            ├── base16-gruvbox-dark-hard.config.py
+            ├── base16-gruvbox-dark-medium.config.py
+            ├── base16-gruvbox-dark-pale.config.py
+            ├── base16-gruvbox-dark-soft.config.py
+            ├── base16-gruvbox-light-hard.config.py
+            ├── base16-gruvbox-light-medium.config.py
+            ├── base16-gruvbox-light-soft.config.py
+            ├── base16-gruvbox-material-dark-hard.config.py
+            ├── base16-gruvbox-material-dark-medium.config.py
+            ├── base16-gruvbox-material-dark-soft.config.py
+            ├── base16-gruvbox-material-light-hard.config.py
+            ├── base16-gruvbox-material-light-medium.config.py
+            ├── base16-gruvbox-material-light-soft.config.py
+            ├── base16-hardcore.config.py
+            ├── base16-harmonic16-dark.config.py
+            ├── base16-harmonic16-light.config.py
+            ├── base16-harmonic-dark.config.py
+            ├── base16-harmonic-light.config.py
+            ├── base16-heetch.config.py
+            ├── base16-heetch-light.config.py
+            ├── base16-helios.config.py
+            ├── base16-hopscotch.config.py
+            ├── base16-horizon-dark.config.py
+            ├── base16-horizon-light.config.py
+            ├── base16-horizon-terminal-dark.config.py
+            ├── base16-horizon-terminal-light.config.py
+            ├── base16-humanoid-dark.config.py
+            ├── base16-humanoid-light.config.py
+            ├── base16-ia-dark.config.py
+            ├── base16-ia-light.config.py
+            ├── base16-icy.config.py
+            ├── base16-irblack.config.py
+            ├── base16-isotope.config.py
+            ├── base16-jabuti.config.py
+            ├── base16-kanagawa.config.py
+            ├── base16-katy.config.py
+            ├── base16-kimber.config.py
+            ├── base16-lime.config.py
+            ├── base16-macintosh.config.py
+            ├── base16-marrakesh.config.py
+            ├── base16-materia.config.py
+            ├── base16-material.config.py
+            ├── base16-material-darker.config.py
+            ├── base16-material-lighter.config.py
+            ├── base16-material-palenight.config.py
+            ├── base16-material-vivid.config.py
+            ├── base16-measured-dark.config.py
+            ├── base16-measured-light.config.py
+            ├── base16-mellow-purple.config.py
+            ├── base16-mexico-light.config.py
+            ├── base16-mocha.config.py
+            ├── base16-monokai.config.py
+            ├── base16-moonlight.config.py
+            ├── base16-mountain.config.py
+            ├── base16-nebula.config.py
+            ├── base16-nord.config.py
+            ├── base16-nord-light.config.py
+            ├── base16-nova.config.py
+            ├── base16-ocean.config.py
+            ├── base16-oceanicnext.config.py
+            ├── base16-onedark.config.py
+            ├── base16-onedark-dark.config.py
+            ├── base16-one-light.config.py
+            ├── base16-outrun-dark.config.py
+            ├── base16-oxocarbon-dark.config.py
+            ├── base16-oxocarbon-light.config.py
+            ├── base16-pandora.config.py
+            ├── base16-papercolor-dark.config.py
+            ├── base16-papercolor-light.config.py
+            ├── base16-paraiso.config.py
+            ├── base16-pasque.config.py
+            ├── base16-phd.config.py
+            ├── base16-pico.config.py
+            ├── base16-pinky.config.py
+            ├── base16-pop.config.py
+            ├── base16-porple.config.py
+            ├── base16-precious-dark-eleven.config.py
+            ├── base16-precious-dark-fifteen.config.py
+            ├── base16-precious-light-warm.config.py
+            ├── base16-precious-light-white.config.py
+            ├── base16-primer-dark.config.py
+            ├── base16-primer-dark-dimmed.config.py
+            ├── base16-primer-light.config.py
+            ├── base16-purpledream.config.py
+            ├── base16-qualia.config.py
+            ├── base16-railscasts.config.py
+            ├── base16-rebecca.config.py
+            ├── base16-rose-pine.config.py
+            ├── base16-rose-pine-dawn.config.py
+            ├── base16-rose-pine-moon.config.py
+            ├── base16-saga.config.py
+            ├── base16-sagelight.config.py
+            ├── base16-sakura.config.py
+            ├── base16-sandcastle.config.py
+            ├── base16-selenized-black.config.py
+            ├── base16-selenized-dark.config.py
+            ├── base16-selenized-light.config.py
+            ├── base16-selenized-white.config.py
+            ├── base16-seti.config.py
+            ├── base16-shadesmear-dark.config.py
+            ├── base16-shadesmear-light.config.py
+            ├── base16-shades-of-purple.config.py
+            ├── base16-shapeshifter.config.py
+            ├── base16-silk-dark.config.py
+            ├── base16-silk-light.config.py
+            ├── base16-snazzy.config.py
+            ├── base16-solarflare.config.py
+            ├── base16-solarflare-light.config.py
+            ├── base16-solarized-dark.config.py
+            ├── base16-solarized-light.config.py
+            ├── base16-spaceduck.config.py
+            ├── base16-spacemacs.config.py
+            ├── base16-sparky.config.py
+            ├── base16-standardized-dark.config.py
+            ├── base16-standardized-light.config.py
+            ├── base16-stella.config.py
+            ├── base16-still-alive.config.py
+            ├── base16-summercamp.config.py
+            ├── base16-summerfruit-dark.config.py
+            ├── base16-summerfruit-light.config.py
+            ├── base16-synth-midnight-dark.config.py
+            ├── base16-synth-midnight-light.config.py
+            ├── base16-tango.config.py
+            ├── base16-tarot.config.py
+            ├── base16-tender.config.py
+            ├── base16-terracotta.config.py
+            ├── base16-terracotta-dark.config.py
+            ├── base16-tokyo-city-dark.config.py
+            ├── base16-tokyo-city-light.config.py
+            ├── base16-tokyo-city-terminal-dark.config.py
+            ├── base16-tokyo-city-terminal-light.config.py
+            ├── base16-tokyodark.config.py
+            ├── base16-tokyodark-terminal.config.py
+            ├── base16-tokyo-night-dark.config.py
+            ├── base16-tokyo-night-light.config.py
+            ├── base16-tokyo-night-moon.config.py
+            ├── base16-tokyo-night-storm.config.py
+            ├── base16-tokyo-night-terminal-dark.config.py
+            ├── base16-tokyo-night-terminal-light.config.py
+            ├── base16-tokyo-night-terminal-storm.config.py
+            ├── base16-tomorrow.config.py
+            ├── base16-tomorrow-night.config.py
+            ├── base16-tomorrow-night-eighties.config.py
+            ├── base16-tube.config.py
+            ├── base16-twilight.config.py
+            ├── base16-unikitty-dark.config.py
+            ├── base16-unikitty-light.config.py
+            ├── base16-unikitty-reversible.config.py
+            ├── base16-uwunicorn.config.py
+            ├── base16-valua.config.py
+            ├── base16-vesper.config.py
+            ├── base16-vice-alt.config.py
+            ├── base16-vice.config.py
+            ├── base16-vulcan.config.py
+            ├── base16-windows-10.config.py
+            ├── base16-windows-10-light.config.py
+            ├── base16-windows-95.config.py
+            ├── base16-windows-95-light.config.py
+            ├── base16-windows-highcontrast.config.py
+            ├── base16-windows-highcontrast-light.config.py
+            ├── base16-windows-nt.config.py
+            ├── base16-windows-nt-light.config.py
+            ├── base16-woodland.config.py
+            ├── base16-xcode-dusk.config.py
+            ├── base16-zenbones.config.py
+            └── base16-zenburn.config.py
+
+10 directories, 569 files
