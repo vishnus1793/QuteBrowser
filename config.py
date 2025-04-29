@@ -78,7 +78,11 @@ c.colors.webpage.bg = "#282a36"
 config.bind('1', 'tab-prev')
 config.bind('2', 'tab-next')
 config.bind('<Alt-Left>', 'back')
+# Zoom in with Space + L
+config.bind('<Space>l', 'zoom-in')
 
+# Zoom out with Space + K
+config.bind('<Space>k', 'zoom-out')
 # Set tabs to always show on startup
 config.set("tabs.show", "always")
 
